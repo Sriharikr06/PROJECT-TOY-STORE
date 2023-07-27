@@ -1,0 +1,104 @@
+.main{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.box{
+  margin-left: 10%;
+  display: flex !important;
+  height: 450px;
+  width: 400px;
+  float: left;
+  margin-bottom: 10%;
+}
+.image{
+  
+    width: 330px;
+    height:330px;
+    margin: 0;
+    border: 5px solid black;
+    padding: 5px;
+}
+.flip-box-back p{
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+#one{
+    text-decoration-line: line-through;
+}
+.flip-box {
+    background-color: transparent;
+    width: 400px;
+    height:300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+ 
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+
+  .flip-box-front {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+
+  .flip-box-back {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-box-back h1{
+    margin-top: 10%;
+    font-size: 15px;
+
+  }
+  .bag{
+    margin-bottom: 5%;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: #000000;
+    color: white;
+  }
+  .bag:hover:hover {
+    background-color: #ff0000;
+    color: white;
+  } 
+  .btnshop1 h2{
+    color: #000000;
+  }
+.cartprice{
+  
+  text-align: center;
+}

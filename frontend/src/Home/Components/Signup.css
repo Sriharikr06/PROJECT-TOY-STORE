@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .signin-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .signin-container p {
+    margin-right: 5px;
+    color: #000000;
+  }
+  
+  .signin-link {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    color: #336699;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #ffffff; */
+  }
+  #signupform{
+    background-color: white;
+    border: none;
+    border-radius: 0.3cm;
+  }
+  
+  .label-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .label-container label {
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type='email'],
+  input[type='password'],
+  input[type='text'],
+  select,
+  input[type='otp'] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .toggle-password-button,
+  .verify-otp-button,
+  .get-otp-button,
+  .signup-button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-password-button:hover,
+  .verify-otp-button:hover,
+  .get-otp-button:hover,
+  .signup-button:hover {
+    background-color: #ffffff;
+    color: rgb(235, 19, 19);
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .signup-button{
+    background-color:  #000000;
+  }
+  .toggle-password-button{
+    background-color:  #000000;
+    margin-left: 10px;
+  }
+  
